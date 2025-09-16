@@ -1,0 +1,238 @@
+/* ----------------------------- */
+/* Estilos generales para body */
+/* ----------------------------- */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* ----------------------------- */
+/* Tema claro por defecto */
+/* ----------------------------- */
+body.light {
+  background: #f9fafb;
+  color: #222;
+}
+
+/* ----------------------------- */
+/* Tema oscuro */
+/* ----------------------------- */
+body.dark {
+  background: #1e1e1e;
+  color: #f9f9f9;
+}
+
+/* ----------------------------- */
+/* Layout Container */
+/* ----------------------------- */
+.layout-container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* H2 del Layout */
+.layout-container h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #e10600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Select de navegación */
+.layout-container select {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 2px solid #e10600;
+  background: #fff;
+  color: #333;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.layout-container select:hover {
+  background: #fbeaea;
+}
+
+/* Botón de cambio de tema */
+.theme-btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #e10600;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.theme-btn:hover {
+  background: #b50500;
+}
+
+hr {
+  margin: 25px 0;
+  border: none;
+  border-top: 2px solid #eee;
+}
+
+/* ----------------------------- */
+/* Circuito Container */
+/* ----------------------------- */
+.circuito-container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 12px;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* H2 del Circuito */
+.circuito-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+/* Imagen del circuito */
+.circuito-container img {
+  display: block;
+  margin: 0 auto 20px;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* H3 */
+.circuito-container h3 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  color: #444;
+  border-left: 5px solid #e10600;
+  padding-left: 10px;
+}
+
+/* Tablas */
+.circuito-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 15px 0;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.circuito-container table th {
+  background: #e10600;
+  color: white;
+  text-align: left;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.circuito-container table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  color: #222;
+}
+
+.circuito-container table tr:nth-child(even) {
+  background: #f4f4f4;
+}
+
+/* Listas y párrafos */
+.circuito-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.circuito-container ul li {
+  background: #fff;
+  padding: 8px 12px;
+  margin: 6px 0;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.circuito-container p {
+  background: #fff;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  line-height: 1.5;
+}
+
+/* Datos del circuito */
+.circuito-container .datos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 10px;
+}
+
+.circuito-container .datos li {
+  background: #fff;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+/* ----------------------------- */
+/* Modo oscuro para Layout y Circuito */
+/* ----------------------------- */
+body.dark .layout-container h2 {
+  color: #f9f9f9;
+}
+
+body.dark .layout-container select {
+  border: 2px solid #555;
+  background: #333;
+  color: #f9f9f9;
+}
+
+body.dark .layout-container select:hover {
+  background: #444;
+}
+
+body.dark hr {
+  border-top: 2px solid #555;
+}
+
+body.dark .circuito-container {
+  background: #2c2c2c;
+  color: #f9f9f9;
+}
+
+body.dark .circuito-container h2,
+body.dark .circuito-container h3 {
+  color: #f9f9f9;
+}
+
+body.dark .circuito-container table {
+  background: #2c2c2c;
+}
+
+body.dark .circuito-container table th {
+  background: #e10600;
+  color: #fff;
+}
+
+body.dark .circuito-container table td {
+  color: #f9f9f9;
+  border-bottom: 1px solid #444;
+}
+
+body.dark .circuito-container table tr:nth-child(even) {
+  background: #3a3a3a;
+}
+
+body.dark .circuito-container ul li,
+body.dark .circuito-container p,
+body.dark .circuito-container .datos li {
+  background: #3a3a3a;
+  border: 1px solid #555;
+  color: #f9f9f9;
+}
