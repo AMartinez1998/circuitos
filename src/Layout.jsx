@@ -25,12 +25,14 @@ export default function Layout() {
 
       <br /><br />
 
-      <select onChange={(e) => navigate(e.target.value)}>
-        <option value="/Austria">Austria</option>
-        <option value="/Mexico">México</option>
-        <option value="/Belgica">Bélgica</option>
-      </select>
-
+      <select onChange={(e) => navigate(e.target.value)} defaultValue="/Seleccionar">
+  <option value="/Seleccionar" disabled>
+    Seleccionar
+  </option>
+  <option value="/Austria">Austria</option>
+  <option value="/Mexico">Mexico</option>
+  <option value="/Belgica">Bélgica</option>
+</select>
       <hr />
 
       <Outlet />
