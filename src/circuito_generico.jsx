@@ -10,12 +10,12 @@ export default function Circuito({
 }) {
   return (
     <div className="circuito-container">
-      <h2>{nombre}</h2>
+      <h2 className="circuito-titulo">{nombre}</h2>
       
-      <img src={imagen} alt={nombre} />
+      <img src={imagen} alt={nombre} className="circuito-imagen" />
 
       <h3>Referencias de frenada</h3>
-      <table>
+      <table className="circuito-tabla">
         <thead>
           <tr>
             <th>Curva</th>
@@ -37,23 +37,23 @@ export default function Circuito({
       </table>
 
       <h3>Set up recomendado</h3>
-      <ul>
+      <ul className="circuito-lista">
         {setup.map((item, i) => (
           <li key={i}>{item}</li>
         ))}
       </ul>
 
       <h3>Consejos de conducción</h3>
-      <p>{consejos}</p>
+      <p className="circuito-texto">{consejos}</p>
 
       <h3>Estrategia de carrera</h3>
-      <p>{estrategia}</p>
+      <p className="circuito-texto">{estrategia}</p>
 
       <h3>Ahorro de neumáticos</h3>
-      <p>{neumaticos}</p>
+      <p className="circuito-texto">{neumaticos}</p>
 
       <h3>Datos del circuito</h3>
-      <ul className="datos">
+      <ul className="circuito-datos">
         {Object.entries(datos).map(([clave, valor]) => (
           <li key={clave}><strong>{clave}:</strong> {valor}</li>
         ))}

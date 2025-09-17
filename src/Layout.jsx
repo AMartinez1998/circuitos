@@ -30,8 +30,28 @@ export default function Layout() {
     Seleccionar
   </option>
   <option value="/Austria">Austria</option>
+  <option value="/China">China</option>
   <option value="/Mexico">Mexico</option>
   <option value="/Belgica">Bélgica</option>
+  <option value="/Japon">Japón</option>
+  <option value="/Baréin">Baréin</option>
+  <option value="/Arabia_Saudí">Arabia Saudí</option>
+  <option value="/Miami">Miami</option>
+  <option value="/Emilia-Romagna">Emilia-Romagna</option>
+  <option value="/Mónaco">Mónaco</option>
+  <option value="/Canadá">Canadá</option>
+  <option value="/España">España</option>
+  <option value="/Gran_Bretaña">Gran Bretaña</option>
+  <option value="/Hungría">Hungría</option>
+  <option value="/Países_Bajos">Países Bajos</option>
+  <option value="/Monza">Monza</option>
+  <option value="/Azerbaiyán">Azerbaiyán</option>
+  <option value="/Singapur">Singapur</option>
+  <option value="/Austin">Estados Unidos (Austin)</option>
+  <option value="/Brasil">Brasil</option>
+  <option value="/Las_Vegas">Estados Unidos (Las Vegas)</option>
+  <option value="/Catar">Catar</option>
+  <option value="/Abu_Dhabi">Abu Dhabi</option>
 </select>
       <hr />
 
