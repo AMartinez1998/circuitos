@@ -5,6 +5,7 @@ import Mexico from "./Mexico";
 import Belgica from "./Bélgica";
 import China from "./China";
 import Japon from "./Japon";
+import Barein from "./Barein";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
           <Route path="/Mexico" element={<Mexico />} />
           <Route path="/Belgica" element={<Belgica />} />
           <Route path="/Japon" element={<Japon />} />
+          <Route path="/Barein" element={<Barein />} />
         </Route>
       </Routes>
     </Router>
