@@ -1,6 +1,6 @@
 import { Outlet, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
-import Footer from "./Footer"; // Asegúrate de importar tu componente Footer
+import Footer from "./Pie"; // Asegúrate de importar tu componente Footer
 
 export default function Layout() {
   const navigate = useNavigate();
@@ -35,9 +35,9 @@ export default function Layout() {
         <option value="/Belgica">Bélgica</option>
         <option value="/Japon">Japón</option>
         <option value="/Barein">Baréin</option>
-        <option value="/Arabia_Saudí">Arabia Saudí</option>
+        <option value="/Arabia">Arabia Saudí</option>
         <option value="/Miami">Miami</option>
-        <option value="/Emilia-Romagna">Emilia-Romagna</option>
+        <option value="/Emilia">Emilia-Romagna</option>
         <option value="/Mónaco">Mónaco</option>
         <option value="/Canadá">Canadá</option>
         <option value="/España">España</option>

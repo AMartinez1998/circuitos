@@ -42,8 +42,8 @@
 }
 
 
-.footer {
-  background-color: #d32f2f; /* rojo intenso */
+.otro {
+  background-color: red;
   color: white;
   padding: 1.5rem;
   text-align: center;
@@ -51,6 +51,8 @@
   flex-direction: column;
   align-items: center;
   gap: 0.5rem;
+  min-height: 100px; /* prueba */
+  width: 100%;       /* ocupa todo el ancho */
 }
 
 .footer-text {
