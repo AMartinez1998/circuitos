@@ -1,5 +1,5 @@
 import Circuito from "./circuito_generico";
-import baku from "./assets/baku.png"; // asegúrate de tener la imagen en assets
+import baku from "./assets/baku.png"; 
 
 export default function Baku() {
   return (

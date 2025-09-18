@@ -1,5 +1,5 @@
 import Circuito from "./circuito_generico";
-import texas from "./assets/texas.avif"; // asegúrate de tener la imagen en assets
+import texas from "./assets/texas.avif"; 
 
 export default function Austin() {
   return (

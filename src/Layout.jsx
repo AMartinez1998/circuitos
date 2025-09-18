@@ -1,6 +1,6 @@
 import { Outlet, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
-import Footer from "./Pie"; // Asegúrate de importar tu componente Footer
+import Footer from "./Pie"; 
 
 export default function Layout() {
   const navigate = useNavigate();
@@ -10,9 +10,9 @@ export default function Layout() {
     setTheme(theme === "light" ? "dark" : "light");
   };
 
-  // Aplicar clase al body
+  
   useEffect(() => {
-    document.body.className = theme; // light o dark
+    document.body.className = theme; 
   }, [theme]);
 
   return (
@@ -56,10 +56,10 @@ export default function Layout() {
 
       <hr />
 
-      {/* Aquí se renderizan los circuitos */}
+      
       <Outlet />
 
-      {/* Footer */}
+      
       <Footer />
     </div>
   );

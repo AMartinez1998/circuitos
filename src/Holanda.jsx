@@ -1,5 +1,5 @@
 import Circuito from "./circuito_generico";
-import holanda from "./assets/holanda.png"; // asegúrate de tener la imagen en assets
+import holanda from "./assets/holanda.png"; 
 
 export default function PaisesBajos() {
   return (

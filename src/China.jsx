@@ -1,5 +1,5 @@
 import Circuito from "./circuito_generico";
-import china from "./assets/china.png"; // reemplaza con tu imagen real
+import china from "./assets/china.png"; 
 
 export default function China() {
   return (

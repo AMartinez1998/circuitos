@@ -1,5 +1,5 @@
 import Circuito from "./circuito_generico";
-import monaco from "./assets/monaco.avif"; // asegúrate de tener la imagen en assets
+import monaco from "./assets/monaco.avif"; 
 
 export default function Monaco() {
   return (

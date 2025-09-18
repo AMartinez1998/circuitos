@@ -1,5 +1,5 @@
 import Circuito from "./circuito_generico";
-import hungria from "./assets/hungria.avif"; // asegúrate de tener la imagen en assets
+import hungria from "./assets/hungria.avif"; 
 
 export default function Hungria() {
   return (

@@ -1,5 +1,5 @@
 import Circuito from "./circuito_generico";
-import barein from "./assets/barein.png"; // reemplaza con tu imagen real
+import barein from "./assets/barein.png"; 
 
 export default function Barein() {
   return (
@@ -7,10 +7,10 @@ export default function Barein() {
       nombre="GP de Baréin 2025"
       imagen={barein}
       referencias={[
-        { curva: 1, frenada: "90m", marcha: "2ª", intensidad: "85%" },  // Turno 1
-        { curva: 4, frenada: "100m", marcha: "3ª", intensidad: "80%" }, // Turno 4
-        { curva: 10, frenada: "120m", marcha: "3ª", intensidad: "75%" }, // Turno 10
-        { curva: 14, frenada: "80m", marcha: "2ª", intensidad: "90%" }, // Chicane final
+        { curva: 1, frenada: "90m", marcha: "2ª", intensidad: "85%" }, 
+        { curva: 4, frenada: "100m", marcha: "3ª", intensidad: "80%" }, 
+        { curva: 10, frenada: "120m", marcha: "3ª", intensidad: "75%" }, 
+        { curva: 14, frenada: "80m", marcha: "2ª", intensidad: "90%" }, 
       ]}
       setup={[
         "Alerón delantero: Medio",

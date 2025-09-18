@@ -1,5 +1,5 @@
 import Circuito from "./circuito_generico";
-import mexico from "./assets/mexico.avif"; // reemplaza con tu imagen real
+import mexico from "./assets/mexico.avif"; 
 
 export default function Mexico() {
   return (

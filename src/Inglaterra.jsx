@@ -1,5 +1,5 @@
 import Circuito from "./circuito_generico";
-import inglaterra from "./assets/inglaterra.avif"; // asegúrate de tener la imagen en assets
+import inglaterra from "./assets/inglaterra.avif"; 
 
 export default function GranBretana() {
   return (

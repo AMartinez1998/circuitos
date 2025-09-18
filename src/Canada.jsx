@@ -1,6 +1,5 @@
 import Circuito from "./circuito_generico";
-import canada from "./assets/canada.png"; // asegúrate de tener la imagen en assets
-
+import canada from "./assets/canada.png"; 
 export default function Canada() {
   return (
     <Circuito 

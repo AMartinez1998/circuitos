@@ -1,5 +1,5 @@
 import Circuito from "./circuito_generico";
-import singapour from "./assets/singapour.webp"; // asegúrate de tener la imagen en assets
+import singapour from "./assets/singapour.webp"; 
 
 export default function Singapour() {
   return (

@@ -1,5 +1,5 @@
 import Circuito from "./circuito_generico";
-import japan from "./assets/japan.avif"; // reemplaza con tu imagen real
+import japan from "./assets/japan.avif"; 
 
 export default function Japon() {
   return (
@@ -7,10 +7,10 @@ export default function Japon() {
       nombre="GP de Japón 2025"
       imagen={japan}
       referencias={[
-        { curva: 1, frenada: "100m", marcha: "3ª", intensidad: "75%" }, // entrada rápida
-        { curva: 11, frenada: "90m", marcha: "2ª", intensidad: "85%" }, // horquilla
-        { curva: 13, frenada: "120m", marcha: "3ª", intensidad: "80%" }, // Spoon
-        { curva: 16, frenada: "130m", marcha: "2ª", intensidad: "90%" }, // Casio Triangle
+        { curva: 1, frenada: "100m", marcha: "3ª", intensidad: "75%" }, 
+        { curva: 11, frenada: "90m", marcha: "2ª", intensidad: "85%" }, 
+        { curva: 13, frenada: "120m", marcha: "3ª", intensidad: "80%" }, 
+        { curva: 16, frenada: "130m", marcha: "2ª", intensidad: "90%" }, 
       ]}
       setup={[
         "Alerón delantero: Medio-Alto",

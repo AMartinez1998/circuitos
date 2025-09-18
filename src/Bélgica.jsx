@@ -1,5 +1,5 @@
 import Circuito from "./circuito_generico";
-import belgica from "./assets/belgica.avif"; // reemplaza con tu imagen real
+import belgica from "./assets/belgica.avif"; 
 
 export default function Belgica() {
   return (
@@ -7,10 +7,10 @@ export default function Belgica() {
       nombre="GP de Bélgica 2025"
       imagen={belgica}
       referencias={[
-        { curva: 1, frenada: "120m", marcha: "2ª", intensidad: "85%" }, // La Source
-        { curva: 5, frenada: "100m", marcha: "3ª", intensidad: "80%" }, // Les Combes
-        { curva: 10, frenada: "140m", marcha: "3ª", intensidad: "75%" }, // Pouhon
-        { curva: 18, frenada: "90m", marcha: "2ª", intensidad: "90%" },  // Chicane final
+        { curva: 1, frenada: "120m", marcha: "2ª", intensidad: "85%" }, 
+        { curva: 5, frenada: "100m", marcha: "3ª", intensidad: "80%" }, 
+        { curva: 10, frenada: "140m", marcha: "3ª", intensidad: "75%" }, 
+        { curva: 18, frenada: "90m", marcha: "2ª", intensidad: "90%" },  
       ]}
       setup={[
         "Alerón delantero: Bajo-Medio",

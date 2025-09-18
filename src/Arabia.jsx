@@ -1,5 +1,5 @@
 import Circuito from "./circuito_generico";
-import arabia from "./assets/arabia.png"; // asegúrate de tener la imagen en assets
+import arabia from "./assets/arabia.png"; 
 
 export default function ArabiaSaudi() {
   return (

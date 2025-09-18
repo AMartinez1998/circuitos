@@ -1,5 +1,5 @@
 import Circuito from "./circuito_generico";
-import Spain from "./assets/Spain.avif"; // asegúrate de tener la imagen en assets
+import Spain from "./assets/Spain.avif"; 
 
 export default function Espana() {
   return (

@@ -1,5 +1,5 @@
 import Circuito from "./circuito_generico";
-import monza from "./assets/monza.avif"; // asegúrate de tener la imagen en assets
+import monza from "./assets/monza.avif"; 
 
 export default function Monza() {
   return (

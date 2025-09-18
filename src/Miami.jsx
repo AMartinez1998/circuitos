@@ -1,5 +1,5 @@
 import Circuito from "./circuito_generico";
-import miami from "./assets/miami.png"; // asegúrate de tener la imagen en assets
+import miami from "./assets/miami.png"; 
 
 export default function Miami() {
   return (

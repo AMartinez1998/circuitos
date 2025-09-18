@@ -1,5 +1,5 @@
 import Circuito from "./circuito_generico";
-import emilia from "./assets/emilia.avif"; // asegúrate de tener la imagen en assets
+import emilia from "./assets/emilia.avif"; 
 
 export default function EmiliaRomagna() {
   return (
