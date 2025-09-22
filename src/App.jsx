@@ -19,6 +19,7 @@ import Monza from "./Monza";
 import Baku from "./Baku";
 import Singapour from "./Singapour";
 import Texas from "./Texas";
+import Brasil from "./Brasil";
 
 export default function App() {
   return (
@@ -44,6 +45,7 @@ export default function App() {
           <Route path="Baku" element={<Baku/>} />
           <Route path="Singapour" element={<Singapour/>} />
           <Route path="Texas" element={<Texas/>} />
+          <Route path="Brasil" element={<Brasil/>} />
         </Route>
       </Routes>
     </Router>

@@ -51,8 +51,8 @@
   flex-direction: column;
   align-items: center;
   gap: 0.5rem;
-  min-height: 100px; /* prueba */
-  width: 100%;       /* ocupa todo el ancho */
+  min-height: 100px; 
+  width: 100%;       
 }
 
 .footer-text {
@@ -69,5 +69,5 @@
 
 .footer-icons a:hover {
   transform: scale(1.2);
-  color: #ffeb3b; /* opcional: amarillo al pasar el ratón */
+  color: #ffeb3b; 
 }
