@@ -49,9 +49,9 @@ export default function Layout() {
         <option value="/Singapour">Singapur</option>
         <option value="/Texas">Estados Unidos (Austin)</option>
         <option value="/Brasil">Brasil</option>
-        <option value="/Las_Vegas">Estados Unidos (Las Vegas)</option>
+        <option value="/Vegas">Estados Unidos (Las Vegas)</option>
         <option value="/Catar">Catar</option>
-        <option value="/Abu_Dhabi">Abu Dhabi</option>
+        <option value="/Abu">Abu Dhabi</option>
       </select>
 
       <hr />
