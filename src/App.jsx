@@ -23,6 +23,7 @@ import Brasil from "./Brasil";
 import Vegas from "./Vegas";
 import Catar from "./Catar";
 import Abu from "./Abu";
+import Australia from "./Australia";
 
 export default function App() {
   return (
@@ -52,6 +53,7 @@ export default function App() {
           <Route path="Vegas" element={<Vegas/>} />
           <Route path="Catar" element={<Catar/>} />
           <Route path="Abu" element={<Abu/>} />
+          <Route path="Australia" element={<Australia/>} />
         </Route>
       </Routes>
     </Router>
